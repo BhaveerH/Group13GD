@@ -575,6 +575,10 @@ PrefabInstance:
       value: JNng_plat_breakable (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
       propertyPath: m_TagString
       value: Unbreakable
       objectReference: {fileID: 0}
@@ -1105,6 +1109,10 @@ PrefabInstance:
       value: JNng_plat_breakable (5)
       objectReference: {fileID: 0}
     - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
       propertyPath: m_TagString
       value: Unbreakable
       objectReference: {fileID: 0}
@@ -1547,6 +1555,10 @@ PrefabInstance:
       value: JNng_plat_breakable (4)
       objectReference: {fileID: 0}
     - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
       propertyPath: m_TagString
       value: Unbreakable
       objectReference: {fileID: 0}
@@ -1896,6 +1908,10 @@ PrefabInstance:
       value: JNng_plat_breakable
       objectReference: {fileID: 0}
     - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
       propertyPath: m_TagString
       value: Unbreakable
       objectReference: {fileID: 0}
@@ -1960,6 +1976,10 @@ PrefabInstance:
     - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
       propertyPath: m_Name
       value: JNng_plat_breakable (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
       propertyPath: m_TagString
@@ -2746,6 +2766,10 @@ PrefabInstance:
     - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
       propertyPath: m_Name
       value: JNng_plat_breakable (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
       propertyPath: m_TagString
@@ -3929,6 +3953,10 @@ PrefabInstance:
     - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
       propertyPath: m_Name
       value: JNng_plat_breakable (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3843401428303065197, guid: 9caba96a50d7c6f449c76fc3782d22d9, type: 3}
       propertyPath: m_TagString

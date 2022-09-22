@@ -8,11 +8,11 @@ public class bulletFire : MonoBehaviour
     float fbLength;
     GameObject player;
     PlayerControl playerController;
-    Rigidbody rb;
+    Rigidbody2D rb;
     public Vector2 newForce = new Vector2(0f, 10000f);
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerController = player.GetComponent<PlayerControl>();
         fbLength = playerController.fbLength;
@@ -23,7 +23,9 @@ public class bulletFire : MonoBehaviour
     void FixedUpdate()
     {
 
-        rb.AddForce(newForce, (ForceMode)ForceMode2D.Impulse);
+        // rb.AddForce(newForce, (ForceMode)ForceMode2D.Impulse);
+        Vector3 eulerRotation = transform.rotation.eulerAngles;
+        transform.rotation = Quaternion.Euler(eulerRotation.x, eulerRotation.y, 0);
     }
 
    
