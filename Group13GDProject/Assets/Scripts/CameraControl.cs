@@ -14,7 +14,7 @@ public class CameraControl : MonoBehaviour
         Vector3 targetPosition = ObjectFollow.transform.position;
         targetPosition.z = -10f;
         targetPosition.x = 0f;
-        
+        targetPosition.y = ObjectFollow.transform.position.y - 3f;
 
         transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref vel, smoothTime);       //follows the target
     }

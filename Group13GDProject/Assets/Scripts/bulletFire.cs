@@ -41,6 +41,10 @@ public class bulletFire : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else if ((collision.gameObject.tag == "bullet") || (collision.gameObject.tag == "Player"))
+        {
+            
+        }
         else
         {
             Destroy(gameObject);

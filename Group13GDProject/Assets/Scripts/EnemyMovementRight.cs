@@ -9,7 +9,7 @@ public class EnemyMovementRight : MonoBehaviour
     public Vector2 EndPos;
     public float HoverDistance;
     public bool moveUp;
-    private int iBulletHit = 0;
+    public int iBulletHit = 0;
     // Start is called before the first frame update
     void Start()
     {
