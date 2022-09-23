@@ -25,13 +25,19 @@ public class bulletFire : MonoBehaviour
 
         // rb.AddForce(newForce, (ForceMode)ForceMode2D.Impulse);
         Vector3 eulerRotation = transform.rotation.eulerAngles;
-        transform.rotation = Quaternion.Euler(eulerRotation.x, eulerRotation.y, 0);
+        transform.rotation = Quaternion.Euler(eulerRotation.x, eulerRotation.y, -90);
     }
 
    
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "enemy")
+ 
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.tag == "Enemy")
         {
             Destroy(gameObject);
         }
@@ -39,6 +45,5 @@ public class bulletFire : MonoBehaviour
         {
             Destroy(gameObject);
         }
- 
     }
 }

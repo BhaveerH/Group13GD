@@ -9,6 +9,7 @@ public class EnemyMovementRight : MonoBehaviour
     public Vector2 EndPos;
     public float HoverDistance;
     public bool moveUp;
+    private int iBulletHit = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +48,19 @@ public class EnemyMovementRight : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, StartPos, 1 * speed * Time.deltaTime);
             transform.localScale = new Vector3(3, transform.localScale.y, transform.localScale.z);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "bullet")
+        {
+            iBulletHit = iBulletHit + 1;
+        }
+
+        if (iBulletHit >= 3)
+        {
+            Destroy(this.gameObject);
         }
     }
 }
