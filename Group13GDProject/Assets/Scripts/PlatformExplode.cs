@@ -19,10 +19,10 @@ public class PlatformExplode : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "bullet")
+        if (collision.gameObject.tag == "Player")
         {
-            //Rigidbody2D rbPlayer = collision.gameObject.GetComponent<Rigidbody2D>();
-            //rbPlayer.velocity = Vector2.up * 8;
+            Rigidbody2D rbPlayer = collision.gameObject.GetComponent<Rigidbody2D>();
+            rbPlayer.velocity = Vector2.up * 8;
             Destroy(this.gameObject);
         }
     }

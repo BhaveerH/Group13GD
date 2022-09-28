@@ -1074,7 +1074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be66af94d8306a446bb4a1f3021922bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectFollow: {fileID: 0}
+  ObjectFollow: {fileID: 1081364211}
   smoothTime: 0.025
 --- !u!1001 &529997657
 PrefabInstance:
@@ -2459,6 +2459,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: Heart
+      value: 
+      objectReference: {fileID: 628511884}
+    - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: tAmmo
+      value: 
+      objectReference: {fileID: 448391143}
+    - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: Heart1
+      value: 
+      objectReference: {fileID: 960881089}
+    - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: Heart2
+      value: 
+      objectReference: {fileID: 1049123361}
+    - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: tCoins
+      value: 
+      objectReference: {fileID: 977591674}
     - target: {fileID: 4860707897943268958, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2477,7 +2497,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081364211}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
