@@ -8624,7 +8624,7 @@ PrefabInstance:
     - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
       propertyPath: pbBullet
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2427040910222575849, guid: 326719775ab9cd740a9efaabbefcf6da, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
 --- !u!1001 &6858435340620257941
