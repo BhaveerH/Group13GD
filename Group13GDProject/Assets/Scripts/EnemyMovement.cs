@@ -57,7 +57,7 @@ public class EnemyMovement : MonoBehaviour
             iBulletHit = iBulletHit + 1;
         }
 
-        if (iBulletHit >= 3)
+        if (iBulletHit >= 1)
         {
             Destroy(this.gameObject);
         }

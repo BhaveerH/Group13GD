@@ -7,7 +7,8 @@ public class MenuController : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("SampleScene 1");
+        Debug.Log("Play tutorial");
     }
 
     public void QuitGame()

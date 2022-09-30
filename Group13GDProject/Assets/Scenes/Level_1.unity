@@ -2727,6 +2727,73 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4545066516012685319, guid: ff8f9ecb62718824a9d1addbfca45f08, type: 3}
   m_PrefabInstance: {fileID: 733916472}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &734009423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 734009425}
+  - component: {fileID: 734009424}
+  m_Layer: 0
+  m_Name: CharacterCont
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &734009424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734009423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d970dc547576419add500d0f7d0ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rbPlayer: {fileID: 0}
+  velocityX: 0
+  velocityY: 0
+  speed: 5
+  fbSpeed: 1000
+  fbLength: 3
+  bulletDelay: 1
+  EnemyTouchDelay: 3
+  currentTime: 0
+  pbBullet: {fileID: 0}
+  Heart: {fileID: 0}
+  Heart1: {fileID: 0}
+  Heart2: {fileID: 0}
+  canShoot: 1
+  canTouch: 1
+  isDead: 0
+  gotKey: 0
+  isTimer: 0
+  iCoinKeep: 0
+  iLives: 3
+  iAmmo: 6
+  tCoins: {fileID: 0}
+  tAmmo: {fileID: 0}
+--- !u!4 &734009425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734009423}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8611307, y: -5.1643147, z: -0.020431787}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &752484118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2855,7 +2922,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2373288907895853669, guid: 449bc27ec4e616c41adf8c9b945d59ee, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2373288907895853669, guid: 449bc27ec4e616c41adf8c9b945d59ee, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6029,9 +6096,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 28257584673374859, guid: 68fcd450159e87a4bb3b4bef4be922db, type: 3}
+      propertyPath: CanvasKey
+      value: 
+      objectReference: {fileID: 782034688}
+    - target: {fileID: 28257584673374859, guid: 68fcd450159e87a4bb3b4bef4be922db, type: 3}
+      propertyPath: PlayerController
+      value: 
+      objectReference: {fileID: 734009424}
     - target: {fileID: 8182917940140004625, guid: 68fcd450159e87a4bb3b4bef4be922db, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8182917940140004625, guid: 68fcd450159e87a4bb3b4bef4be922db, type: 3}
       propertyPath: m_LocalPosition.x
