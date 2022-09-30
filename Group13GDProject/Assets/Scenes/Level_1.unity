@@ -5092,6 +5092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wtr_plat_breakable (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4829308572146047806, guid: 1da3edef337f0cb4baf493c0163e46ac, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 7926892530762117788, guid: 1da3edef337f0cb4baf493c0163e46ac, type: 3}
       propertyPath: m_RootOrder
       value: 0
