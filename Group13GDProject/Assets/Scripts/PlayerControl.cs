@@ -118,6 +118,17 @@ public class PlayerControl : MonoBehaviour
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
+            else if (gotKey == true)
+            {
+                if (SceneManager.GetActiveScene().name == "SampleScene 1")
+                {
+                    SceneManager.LoadScene("Level_1");
+                }
+                else if (SceneManager.GetActiveScene().name == "Level_1")
+                {
+                    SceneManager.LoadScene("Level_2");
+                }
+            }
         }
 
       
