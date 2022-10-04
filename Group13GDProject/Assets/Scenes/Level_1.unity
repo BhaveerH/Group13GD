@@ -8615,7 +8615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cc: {fileID: 519420033}
-  CCnewXpos: 17
+  CCnewXpos: 19.9
   iCount: 0
   NextPortal: {fileID: 1986686220}
 --- !u!1001 &1917397245
@@ -9017,7 +9017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cc: {fileID: 519420033}
-  CCnewXpos: -20
+  CCnewXpos: -19.3
   iCount: 0
   NextPortal: {fileID: 1630618301}
 --- !u!1 &1986686220 stripped
