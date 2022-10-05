@@ -2004,7 +2004,7 @@ GameObject:
   - component: {fileID: 429866534}
   m_Layer: 0
   m_Name: Death zone (3)
-  m_TagString: EndOfLevel
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4882,7 +4882,7 @@ GameObject:
   - component: {fileID: 1134550346}
   m_Layer: 0
   m_Name: Death zone (4)
-  m_TagString: EndOfLevel
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5060,7 +5060,7 @@ GameObject:
   - component: {fileID: 1150251034}
   m_Layer: 0
   m_Name: Death zone (1)
-  m_TagString: EndOfLevel
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8781,7 +8781,7 @@ GameObject:
   - component: {fileID: 1937340569}
   m_Layer: 0
   m_Name: Death zone (2)
-  m_TagString: EndOfLevel
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9328,6 +9328,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 7edac05216c669a41a7100a023926633, type: 3}
+    - target: {fileID: 4860707897943268944, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860707897943268944, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860707897943268944, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4860707897943268945, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
       propertyPath: m_RootOrder
       value: 2
