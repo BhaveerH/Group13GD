@@ -9,7 +9,7 @@ public class PlayerControl : MonoBehaviour
     public Rigidbody2D rbPlayer;
     public float velocityX, velocityY, speed = 5f, fbSpeed = 1000f, fbLength = 3f, bulletDelay = 1f, EnemyTouchDelay = 3f, currentTime = 0f;
     public GameObject pbBullet, Heart, Heart1, Heart2;
-    public bool canShoot = true, canTouch = true, isDead = false, gotKey = false, isTimer = false;
+    public bool canShoot = true, canTouch = true, isDead = false, gotKey = false, isTimer = false, canJump = false;
     public int iCoinKeep, iLives = 3, iAmmo = 6;
     public Text tCoins, tAmmo;
     private float startTime = 2f;
@@ -29,10 +29,16 @@ public class PlayerControl : MonoBehaviour
         velocityX = Input.GetAxis("Horizontal") * speed;        //gets the horizontal axis, the keys that need to pressed to move are pre assigned 
         rbPlayer.velocity = new Vector2(velocityX, rbPlayer.velocity.y);        //updates the movement
 
-        if ((Input.GetKey(KeyCode.Space)) && (rbPlayer.velocity.y >= -2.5f) && (rbPlayer.velocity.y <= 2.5f))        //perfroms the jump when the spacebar is pressed
+         if ((Input.GetKey(KeyCode.Space)) && (rbPlayer.velocity.y >= -2.5f) && (rbPlayer.velocity.y <= 2.5f))        //perfroms the jump when the spacebar is pressed
+         {
+             rbPlayer.velocity = Vector2.up * 8;
+          
+         }  
+
+       /* if ((Input.GetKey(KeyCode.Space) && (canJump == true)
         {
             rbPlayer.velocity = Vector2.up * 8;
-        }
+        } */
 
          if (rbPlayer.velocity.y <= -7f)                                       //makes sure the y velocity does not exceed -10
          {
@@ -129,6 +135,15 @@ public class PlayerControl : MonoBehaviour
                     SceneManager.LoadScene("Level_2");
                 }
             }
+        }
+
+        if (collision.gameObject.tag == "Unbreakable")
+        {
+            canJump = true;
+        }
+        else
+        {
+            canJump = false;
         }
 
       
