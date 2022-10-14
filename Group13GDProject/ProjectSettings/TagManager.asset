@@ -9,6 +9,7 @@ TagManager:
   - Key
   - bullet
   - EndOfLevel
+  - spike
   layers:
   - Default
   - TransparentFX
