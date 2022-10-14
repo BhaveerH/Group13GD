@@ -4678,6 +4678,7 @@ MonoBehaviour:
   isDead: 0
   gotKey: 0
   isTimer: 0
+  canJump: 0
   iCoinKeep: 0
   iLives: 3
   iAmmo: 6
@@ -8328,8 +8329,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951915127}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 724, y: 291, z: -9720}
-  m_LocalScale: {x: 324, y: 324, z: 108}
+  m_LocalPosition: {x: 723, y: 307, z: -9720}
+  m_LocalScale: {x: 142.56, y: 129.6, z: 108}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1706843867}
