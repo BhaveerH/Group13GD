@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3014168464521045752}
   m_Layer: 0
   m_Name: Spikes_4
-  m_TagString: spike
+  m_TagString: hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

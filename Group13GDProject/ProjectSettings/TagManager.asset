@@ -10,6 +10,7 @@ TagManager:
   - bullet
   - EndOfLevel
   - spike
+  - hazard
   layers:
   - Default
   - TransparentFX
