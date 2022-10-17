@@ -19,7 +19,8 @@ public class MenuController : MonoBehaviour
 
     public void BackToHome()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Main Menu");
+        Debug.Log("Home");
     }
 
     /*public void Restart()
