@@ -9,10 +9,11 @@ public class PlayerControl : MonoBehaviour
     public Rigidbody2D rbPlayer;
     public float velocityX, velocityY, speed = 5f, fbSpeed = 1000f, fbLength = 3f, bulletDelay = 1f, EnemyTouchDelay = 3f, currentTime = 0f;
     public GameObject pbBullet, Heart, Heart1, Heart2;
-    public bool canShoot = true, canTouch = true, isDead = false, gotKey = false, isTimer = false, canJump = false;
+    public bool canShoot = true, canTouch = true, isDead = false, gotKey = false, isTimer = false, canJump = false, isShoot = false;
     public int iCoinKeep, iLives = 3, iAmmo = 6;
     public Text tCoins, tAmmo;
     private float startTime = 2f;
+    public Sprite spShoot, spOrigin;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +50,10 @@ public class PlayerControl : MonoBehaviour
         {
             Shooting();
             iAmmo = iAmmo - 1;
+        }
+        else
+        {
+            isShoot = false;
         }
 
         if ((iAmmo < 6) && (isTimer == false))
@@ -88,8 +93,11 @@ public class PlayerControl : MonoBehaviour
 
     void Shooting()
     {
+        isShoot = true;
         Instantiate(pbBullet, new Vector2(transform.position.x, transform.position.y - 1), transform.rotation);
         StartCoroutine(BulletDelay());
+        StartCoroutine(SpriteChange());
+       
     }
 
     IEnumerator BulletDelay()
@@ -97,6 +105,14 @@ public class PlayerControl : MonoBehaviour
         canShoot = false;
         yield return new WaitForSeconds(bulletDelay);
         canShoot = true;
+    }
+
+    IEnumerator SpriteChange()
+    {
+        gameObject.GetComponent<SpriteRenderer>().sprite = spShoot;
+        yield return new WaitForSeconds(bulletDelay);
+        gameObject.GetComponent<SpriteRenderer>().sprite = spOrigin;
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
