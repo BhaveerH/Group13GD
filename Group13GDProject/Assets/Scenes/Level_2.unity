@@ -5399,11 +5399,14 @@ MonoBehaviour:
   gotKey: 0
   isTimer: 0
   canJump: 0
+  isShoot: 0
   iCoinKeep: 0
   iLives: 3
   iAmmo: 6
   tCoins: {fileID: 0}
   tAmmo: {fileID: 0}
+  spShoot: {fileID: 0}
+  spOrigin: {fileID: 0}
 --- !u!4 &1099329995
 Transform:
   m_ObjectHideFlags: 0
@@ -11365,9 +11368,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 977591674}
     - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: spShoot
+      value: 
+      objectReference: {fileID: 21300000, guid: 4e12cbe1ce6c3014f9df4282114e50db, type: 3}
+    - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
       propertyPath: pbBullet
       value: 
       objectReference: {fileID: 2427040910222575849, guid: f35bd279d2c571d4abe3e464eb803762, type: 3}
+    - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: spOrigin
+      value: 
+      objectReference: {fileID: 21300000, guid: b19c5e37263a8734c96728d6fe145dda, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
 --- !u!114 &4860707896972514405 stripped
