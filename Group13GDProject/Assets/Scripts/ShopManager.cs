@@ -40,9 +40,12 @@ public class ShopManager : MonoBehaviour
         shopItems[2, 6] = 10000;
     }
 
-    // Update is called once per frame
-    void Update()
+    /*
+    pubic void Buy()
     {
-        
+    GameObject ButtonRef = GameObject.FindGameObjectWithTag("event").GetComponent<Event>
     }
+    
+    */
+    
 }
