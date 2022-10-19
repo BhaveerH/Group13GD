@@ -126,7 +126,7 @@ public class PlayerControl : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if ((collision.gameObject.tag == "Enemy") && (canTouch == true))
+        if ((collision.gameObject.tag == "Enemy") && (canTouch == true) || (collision.gameObject.tag=="hazard" &&canTouch==true))
         {
             iLives = iLives - 1;
             //enemySFX.Play();
