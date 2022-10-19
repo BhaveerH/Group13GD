@@ -2,12 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MenuController : MonoBehaviour
 {
+    public Button btnPlay, btnQuit, btnHome, btnCredits;
+    public GameObject creditPanel;
+    private void Start()
+    {
+        btnHome.onClick.AddListener(BackToHome);
+        btnPlay.onClick.AddListener(PlayGame);
+        btnQuit.onClick.AddListener(QuitGame);
+        btnCredits.onClick.AddListener(Credits);
+    }
     public void PlayGame()
     {
-        SceneManager.LoadScene("SampleScene 1");
+        SceneManager.LoadScene("Intro-Controls Scene");
         Debug.Log("Play tutorial");
     }
 
@@ -19,8 +29,15 @@ public class MenuController : MonoBehaviour
 
     public void BackToHome()
     {
-        SceneManager.LoadScene("Main Menu");
+        //SceneManager.LoadScene("Main Menu");
+        // creditPanel.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Debug.Log("Home");
+    }
+
+    public void Credits()
+    {
+        creditPanel.SetActive(true);
     }
 
     /*public void Restart()

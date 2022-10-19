@@ -8081,7 +8081,7 @@ PrefabInstance:
     - target: {fileID: 529792067896614972, guid: 9d89270d78ce78b488b723a6c755246b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1691718938}
+      objectReference: {fileID: 0}
     - target: {fileID: 529792067896614972, guid: 9d89270d78ce78b488b723a6c755246b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -8105,6 +8105,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 529792067896614971, guid: 9d89270d78ce78b488b723a6c755246b, type: 3}
   m_PrefabInstance: {fileID: 1315552714}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1315552716 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 529792067896614972, guid: 9d89270d78ce78b488b723a6c755246b, type: 3}
+  m_PrefabInstance: {fileID: 1315552714}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1317197652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10149,7 +10160,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1691718939}
-  - component: {fileID: 1691718938}
+  - component: {fileID: 1691718940}
   m_Layer: 0
   m_Name: Ui controller
   m_TagString: Untagged
@@ -10157,18 +10168,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1691718938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691718937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8430e8ce70fa4438b02754249ea837, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1691718939
 Transform:
   m_ObjectHideFlags: 0
@@ -10184,6 +10183,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1691718940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691718937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94755da39083b2d42a4ce8eb74d748b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnHome: {fileID: 1315552716}
 --- !u!1001 &1693022641
 PrefabInstance:
   m_ObjectHideFlags: 0
