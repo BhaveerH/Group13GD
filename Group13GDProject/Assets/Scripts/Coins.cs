@@ -27,7 +27,7 @@ public class Coins : MonoBehaviour
             coinCollectSFX.Play();
             CoinsTotal.coinTotal += iCollect;
             Destroy(this.gameObject);
-            //Play coin collect audio here
+           
             
         }
     }
