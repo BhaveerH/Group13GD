@@ -14,6 +14,9 @@ public class PlayerControl : MonoBehaviour
     public Text tCoins, tAmmo;
     private float startTime = 2f;
     public Sprite spShoot, spOrigin;
+
+    [SerializeField] public AudioSource healthSFX, enemySFX, dieSFX, shootSFX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,7 +52,12 @@ public class PlayerControl : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && canShoot == true && iAmmo >= 1)
         {
             Shooting();
+            shootSFX.Stop();
             iAmmo = iAmmo - 1;
+
+            //Shooting sound
+            shootSFX.Play();
+            
         }
         else
         {
@@ -87,6 +95,7 @@ public class PlayerControl : MonoBehaviour
 
         if (isDead == true)
         {
+            dieSFX.Play();
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
@@ -97,7 +106,7 @@ public class PlayerControl : MonoBehaviour
         Instantiate(pbBullet, new Vector2(transform.position.x, transform.position.y - 1), transform.rotation);
         StartCoroutine(BulletDelay());
         StartCoroutine(SpriteChange());
-       
+        
     }
 
     IEnumerator BulletDelay()
@@ -120,6 +129,7 @@ public class PlayerControl : MonoBehaviour
         if ((collision.gameObject.tag == "Enemy") && (canTouch == true))
         {
             iLives = iLives - 1;
+            //enemySFX.Play();
 
             switch (iLives)
             {
@@ -132,7 +142,13 @@ public class PlayerControl : MonoBehaviour
                     break;              
             }
             StartCoroutine(EnemyLandDelay());
+
+            //Play lose health sound here
+            //healthSFX.Play();
+            enemySFX.Play();
         }
+
+
 
         if (collision.gameObject.tag == "EndOfLevel")
         {
@@ -160,6 +176,7 @@ public class PlayerControl : MonoBehaviour
         else
         {
             canJump = false;
+            
         }
 
       

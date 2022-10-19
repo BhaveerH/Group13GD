@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlatformExplode : MonoBehaviour
 {
+    [SerializeField] public AudioSource platformSFX;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,9 +22,11 @@ public class PlatformExplode : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            platformSFX.Play();
             Rigidbody2D rbPlayer = collision.gameObject.GetComponent<Rigidbody2D>();
             rbPlayer.velocity = Vector2.up * 8;
             Destroy(this.gameObject);
+            
         }
     }
 }

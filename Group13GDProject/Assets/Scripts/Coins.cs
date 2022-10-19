@@ -7,6 +7,8 @@ public class Coins : MonoBehaviour
     public int iCollect = 10;
     //public bool iEnter = false;
     // Start is called before the first frame update
+
+    [SerializeField] public AudioSource coinCollectSFX;
     void Start()
     {
         
@@ -22,8 +24,11 @@ public class Coins : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            coinCollectSFX.Play();
             CoinsTotal.coinTotal += iCollect;
             Destroy(this.gameObject);
+            //Play coin collect audio here
+            
         }
     }
 }
