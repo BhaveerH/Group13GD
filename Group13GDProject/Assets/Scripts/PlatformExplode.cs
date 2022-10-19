@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlatformExplode : MonoBehaviour
 {
+    public int isCollect = 0;
     [SerializeField] public AudioSource platformSFX;
     // Start is called before the first frame update
     void Start()
@@ -14,7 +15,11 @@ public class PlatformExplode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (isCollect == 1)
+        {
+            StartCoroutine(TimeDelay());
+
+        }
     }
 
 
@@ -25,8 +30,17 @@ public class PlatformExplode : MonoBehaviour
             platformSFX.Play();
             Rigidbody2D rbPlayer = collision.gameObject.GetComponent<Rigidbody2D>();
             rbPlayer.velocity = Vector2.up * 8;
-            Destroy(this.gameObject);
+            // Destroy(this.gameObject);
+            isCollect = 1;
             
         }
+    }
+
+    IEnumerator TimeDelay()
+    {
+
+        yield return new WaitForSeconds(0.7f);
+        Destroy(this.gameObject);
+
     }
 }

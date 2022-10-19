@@ -33,7 +33,7 @@ public class PlayerControl : MonoBehaviour
         velocityX = Input.GetAxis("Horizontal") * speed;        //gets the horizontal axis, the keys that need to pressed to move are pre assigned 
         rbPlayer.velocity = new Vector2(velocityX, rbPlayer.velocity.y);        //updates the movement
 
-         if ((Input.GetKey(KeyCode.Space)) && (rbPlayer.velocity.y >= -2.5f) && (rbPlayer.velocity.y <= 2.5f))        //perfroms the jump when the spacebar is pressed
+         if ((Input.GetKey(KeyCode.Space)) || (Input.GetKey(KeyCode.W)) && (rbPlayer.velocity.y >= -2.5f) && (rbPlayer.velocity.y <= 2.5f))        //perfroms the jump when the spacebar is pressed
          {
              rbPlayer.velocity = Vector2.up * 8;
           

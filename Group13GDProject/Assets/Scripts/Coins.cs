@@ -5,6 +5,7 @@ using UnityEngine;
 public class Coins : MonoBehaviour
 {
     public int iCollect = 10;
+    public int isCollect = 0;
     //public bool iEnter = false;
     // Start is called before the first frame update
 
@@ -18,6 +19,12 @@ public class Coins : MonoBehaviour
     void Update()
     {
         transform.Rotate(0, 50 * Time.deltaTime, 0);
+
+        if (isCollect == 1)
+        {
+            StartCoroutine(TimeDelay());
+            
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -25,10 +32,19 @@ public class Coins : MonoBehaviour
         if (collision.tag == "Player")
         {
             coinCollectSFX.Play();
+            isCollect = 1;
             CoinsTotal.coinTotal += iCollect;
-            Destroy(this.gameObject);
-           
             
+            
+
         }
+    }
+
+    IEnumerator TimeDelay()
+    {
+
+        yield return new WaitForSeconds(0.35f);
+        Destroy(this.gameObject);
+        
     }
 }
