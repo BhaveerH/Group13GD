@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4545066516012685319}
   - component: {fileID: 5195882895257321056}
   - component: {fileID: 4274961442105961521}
+  - component: {fileID: 4568848119920647198}
   m_Layer: 0
   m_Name: Wtr_plat_unbreakable
   m_TagString: Unbreakable
@@ -121,3 +122,23 @@ PolygonCollider2D:
       - {x: -0.06936142, y: -0.043931663}
       - {x: -0.07998109, y: -0.01738888}
       - {x: -0.12103255, y: 0.0060365647}
+--- !u!95 &4568848119920647198
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096121176176114327}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7bde92794bf35fa4f94ab9ca2760f180, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
