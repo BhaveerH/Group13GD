@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3958834027403787899}
   - component: {fileID: 7100875005937563550}
   - component: {fileID: 1282854560962591561}
+  - component: {fileID: 3713801992962049002}
   m_Layer: 0
   m_Name: Des_plat_unbreakable
   m_TagString: Untagged
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 975345f70a848e24491526c745ffc0c2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 27190bb7d4f41f44ab1ff3978450a57d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -111,3 +112,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 0.13141657}
   m_EdgeRadius: 0
+--- !u!95 &3713801992962049002
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449121314670699047}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 83645fa97c5de7640bd3a0a9edb22bb5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7520889173482156836}
   - component: {fileID: 503740069969135567}
   - component: {fileID: -611291620727737648}
+  - component: {fileID: 1527377346586864632}
   m_Layer: 0
   m_Name: Des_enemy
   m_TagString: Enemy
@@ -120,3 +121,23 @@ MonoBehaviour:
   HoverDistance: 0
   moveUp: 0
   iBulletHit: 0
+--- !u!95 &1527377346586864632
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7128413491834097933}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d4b7061b0d8e0c9408ee1d10ec534443, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

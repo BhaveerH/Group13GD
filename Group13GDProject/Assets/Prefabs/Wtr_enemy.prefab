@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4587073556250833889}
   - component: {fileID: -1423430065189508310}
   - component: {fileID: 4875966342980068152}
+  - component: {fileID: 7928926371969892360}
   m_Layer: 0
   m_Name: Wtr_enemy
   m_TagString: Enemy
@@ -161,3 +162,23 @@ MonoBehaviour:
   HoverDistance: 0
   moveUp: 0
   iBulletHit: 0
+--- !u!95 &7928926371969892360
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079767641720928605}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e1c91b6fbdaadbe428bcd6fb9eb8fcc7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
