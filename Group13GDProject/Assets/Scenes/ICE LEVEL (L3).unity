@@ -3779,7 +3779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerCountUp: 0
-  timerCountDown: 5
+  timerCountDown: 2
   randomX: 0
   isZero: 0
   gCam: {fileID: 519420028}
