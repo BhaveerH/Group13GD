@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5338890787774717398}
   - component: {fileID: 2648471152144549968}
   - component: {fileID: 8895987504812229461}
+  - component: {fileID: 2986893596236609764}
   m_Layer: 0
   m_Name: LAVACREATURE
   m_TagString: Enemy
@@ -130,3 +131,23 @@ MonoBehaviour:
   HoverDistance: 0
   moveUp: 0
   iBulletHit: 0
+--- !u!95 &2986893596236609764
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15092879291624586}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 73d253b700d32d04bb50e97c1e8b7c92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
