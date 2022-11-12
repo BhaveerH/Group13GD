@@ -10,7 +10,7 @@ public class PlayerControl : MonoBehaviour
     public float velocityX, velocityY, speed = 5f, fbSpeed = 1000f, fbLength = 3f, bulletDelay = 1f, EnemyTouchDelay = 3f, currentTime = 0f;
     public GameObject pbBullet, Heart, Heart1, Heart2;
     public bool canShoot = true, canTouch = true, isDead = false, gotKey = false, isTimer = false, canJump = false, isShoot = false;
-    public int iCoinKeep, iLives = 3, iAmmo = 6;
+    public int iCoinKeep, iLives = 1, iAmmo = 6;
     public Text tCoins, tAmmo;
     private float startTime = 2f;
     public Sprite spShoot, spOrigin;
