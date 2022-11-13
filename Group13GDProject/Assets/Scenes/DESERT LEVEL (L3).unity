@@ -11876,6 +11876,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 628511884}
     - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: iAmmo
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
       propertyPath: tAmmo
       value: 
       objectReference: {fileID: 448391143}
@@ -11887,6 +11891,10 @@ PrefabInstance:
       propertyPath: Heart2
       value: 
       objectReference: {fileID: 1049123361}
+    - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: iLives
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
       propertyPath: tCoins
       value: 
