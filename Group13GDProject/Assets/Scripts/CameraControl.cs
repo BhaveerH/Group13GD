@@ -12,7 +12,7 @@ public class CameraControl : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 targetPosition = ObjectFollow.transform.position;
-        targetPosition.z = -10f;
+        targetPosition.z = -50f;
         targetPosition.x = PlayerXPos;
         targetPosition.y = ObjectFollow.transform.position.y - 3f;
 
