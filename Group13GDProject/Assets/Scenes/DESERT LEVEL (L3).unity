@@ -9045,10 +9045,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerCountUp: 0
   timerCountDown: 5
-  randomX: 0
   isZero: 0
   gCam: {fileID: 519420028}
   pbSpike: {fileID: 2034157126994633167, guid: e9b9aeb1e1b1e6746bbc26f8779cc8f3, type: 3}
+  randomX: 0
 --- !u!4 &1763123273
 Transform:
   m_ObjectHideFlags: 0
@@ -11870,6 +11870,10 @@ PrefabInstance:
     - target: {fileID: 4860707897943268949, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860707897943268949, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4860707897943268956, guid: cb885e0663d2ee942ac69184064a4435, type: 3}
       propertyPath: Heart
