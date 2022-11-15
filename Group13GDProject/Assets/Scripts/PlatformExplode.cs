@@ -29,7 +29,7 @@ public class PlatformExplode : MonoBehaviour
         {
             platformSFX.Play();
             Rigidbody2D rbPlayer = collision.gameObject.GetComponent<Rigidbody2D>();
-            rbPlayer.velocity = Vector2.up * 8;
+            rbPlayer.velocity = Vector2.up * 6;
             // Destroy(this.gameObject);
             isCollect = 1;
             

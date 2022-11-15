@@ -46,17 +46,17 @@ public class SpikePressure : MonoBehaviour
         }
         else if ((timerCountUp > 15) && (timerCountUp <= 30) && (isZero == true))
         {
-            timerCountDown = 3f;
+            timerCountDown = 3.5f;
             isZero = false;
         }
         else if ((timerCountUp > 30) && (timerCountUp <= 50) && (isZero == true))
         {
-            timerCountDown = 1.5f;
+            timerCountDown = 2.5f;
             isZero = false;
         }
         else if ((timerCountUp > 50) && (isZero == true))
         {
-            timerCountDown = 0.75f;
+            timerCountDown = 1.5f;
             isZero = false;
         }
 

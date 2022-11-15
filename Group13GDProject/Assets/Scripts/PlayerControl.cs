@@ -35,7 +35,7 @@ public class PlayerControl : MonoBehaviour
 
          if ((Input.GetKey(KeyCode.Space)) || (Input.GetKey(KeyCode.W)) && (rbPlayer.velocity.y >= -2.5f) && (rbPlayer.velocity.y <= 2.5f))        //perfroms the jump when the spacebar is pressed
          {
-             rbPlayer.velocity = Vector2.up * 8;
+             rbPlayer.velocity = Vector2.up * 6;
           
          }  
 
@@ -158,14 +158,16 @@ public class PlayerControl : MonoBehaviour
             }
             else if (gotKey == true)
             {
-                if (SceneManager.GetActiveScene().name == "SampleScene 1")
-                {
-                    SceneManager.LoadScene("Level_1");
-                }
-                else if (SceneManager.GetActiveScene().name == "Level_1")
-                {
-                    SceneManager.LoadScene("Level_2");
-                }
+                /*  if (SceneManager.GetActiveScene().name == "SampleScene 1")
+                  {
+                      SceneManager.LoadScene("Level_1");
+                  }
+                  else if (SceneManager.GetActiveScene().name == "Level_1")
+                  {
+                      SceneManager.LoadScene("Level_2");
+                  }
+                */
+                SceneManager.LoadScene("SHOP SCENE");
             }
         }
 

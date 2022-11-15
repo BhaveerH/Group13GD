@@ -2116,7 +2116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &782034689
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2434,6 +2434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerControl: {fileID: 1081364213}
   goHeartCanvas: {fileID: 628511884}
+  speed: 0.4
+  HoverDistance: 0.5
 --- !u!61 &832796721
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2679,6 +2681,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerControl: {fileID: 1081364213}
   goHeartCanvas: {fileID: 960881089}
+  speed: 0.4
+  HoverDistance: 0.5
 --- !u!61 &874329646
 BoxCollider2D:
   m_ObjectHideFlags: 0

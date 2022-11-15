@@ -5427,6 +5427,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerControl: {fileID: 4860707896972514405}
   goHeartCanvas: {fileID: 628511884}
+  speed: 0.4
+  HoverDistance: 0.5
 --- !u!61 &1110711127
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11877,6 +11879,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerControl: {fileID: 4860707896972514405}
   goHeartCanvas: {fileID: 960881089}
+  speed: 0.4
+  HoverDistance: 0.5
 --- !u!61 &2143811715
 BoxCollider2D:
   m_ObjectHideFlags: 0
