@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/JUNGLE LEVEL (L1).unity
     guid: 6322d0375d55995468bd41f04e7cd8ec
   - enabled: 1
+    path: Assets/Scenes/SHOP SCENE.unity
+    guid: 191579ddf916ae74b9b0231fd0a6c13e
+  - enabled: 1
     path: Assets/Scenes/WATER LEVEL (L2) 1.unity
     guid: 978107ad58c243f47bd81afec14285bf
   - enabled: 0
@@ -26,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DESERT LEVEL (L3).unity
     guid: 291ff3adfe2c91f478191e48cd1d37dd
+  - enabled: 1
+    path: Assets/Scenes/ICE LEVEL (L4).unity
+    guid: cd7f41b9a4103c246aa8f1d8064783d6
+  - enabled: 1
+    path: Assets/Scenes/FIRE  LEVEL (L5).unity
+    guid: de7973b364cbdeb4ebda44bf88800d94
   m_configObjects: {}
