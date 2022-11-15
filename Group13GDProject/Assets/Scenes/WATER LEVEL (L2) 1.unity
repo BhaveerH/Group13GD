@@ -602,6 +602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1411,6 +1415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1689,6 +1697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3611,6 +3623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3725,6 +3741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4292,6 +4312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4715,6 +4739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7709,6 +7737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -9794,6 +9826,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -11478,6 +11514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -12429,6 +12469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -13253,6 +13297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -13487,6 +13535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -13549,6 +13601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletCollect (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8420983394433458428, guid: cc285452a60d244449d7110373af6296, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0d4a72b36022cb49abc5eb7fbc8d134, type: 3}
     - target: {fileID: 8420983394433458429, guid: cc285452a60d244449d7110373af6296, type: 3}
       propertyPath: m_RootOrder
       value: 1
