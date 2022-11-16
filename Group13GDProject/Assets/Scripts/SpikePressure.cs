@@ -8,10 +8,11 @@ public class SpikePressure : MonoBehaviour
     public bool isZero = false;
     public GameObject gCam, pbSpike;
     public int randomX;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -39,26 +40,26 @@ public class SpikePressure : MonoBehaviour
         }
 
 
-        if ((timerCountUp > 0)  && (timerCountUp <= 15) && (isZero == true))
+        if ((timerCountUp > 0)  && (timerCountUp <= 20) && (isZero == true))
         {
             timerCountDown = 5;
             isZero = false;
         }
-        else if ((timerCountUp > 15) && (timerCountUp <= 30) && (isZero == true))
+        else if ((timerCountUp > 20) && (isZero == true))
         {
             timerCountDown = 3.5f;
             isZero = false;
         }
-        else if ((timerCountUp > 30) && (timerCountUp <= 50) && (isZero == true))
+      /*  else if ((timerCountUp > 40) && (timerCountUp <= 60) && (isZero == true))
         {
             timerCountDown = 2.5f;
             isZero = false;
         }
-        else if ((timerCountUp > 50) && (isZero == true))
+        else if ((timerCountUp > 60) && (isZero == true))
         {
             timerCountDown = 1.5f;
             isZero = false;
-        }
+        } */
 
         
     }
