@@ -4,14 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class IntroButtons : MonoBehaviour
+public class ControlButton : MonoBehaviour
 {
-    public Button btnPlay, btnHome;
+    public Button btnPlayLevel, btnExit;
     // Start is called before the first frame update
     void Start()
     {
-        btnHome.onClick.AddListener(BackToHome);
-        btnPlay.onClick.AddListener(PlayGame);
+        btnPlayLevel.onClick.AddListener(Level1Play);
+        btnExit.onClick.AddListener(BackToHome);
     }
 
     // Update is called once per frame
@@ -20,14 +20,15 @@ public class IntroButtons : MonoBehaviour
         
     }
 
-    public void PlayGame()
+    public void Level1Play()
     {
-        SceneManager.LoadScene("CONTROLS SCENE");
-        Debug.Log("Play tutorial");
+        SceneManager.LoadScene("JUNGLE LEVEL (L1)");
     }
 
     public void BackToHome()
     {
+        //SceneManager.LoadScene("Main Menu");
+        // creditPanel.SetActive(false);
         SceneManager.LoadScene("Main Menu");
         Debug.Log("Home");
     }

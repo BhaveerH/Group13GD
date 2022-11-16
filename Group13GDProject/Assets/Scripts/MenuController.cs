@@ -17,7 +17,7 @@ public class MenuController : MonoBehaviour
     }
     public void PlayGame()
     {
-        SceneManager.LoadScene("Intro-Controls Scene");
+        SceneManager.LoadScene("INTRO SCENE");
         Debug.Log("Play tutorial");
     }
 
