@@ -29,11 +29,11 @@ public class SpikePressure : MonoBehaviour
 
             if (randomX == 1)
             {
-                Instantiate(pbSpike, new Vector2(-2.9f, gCam.transform.position.y + 7), transform.rotation);
+                Instantiate(pbSpike, new Vector2(-2.9f, gCam.transform.position.y + 6), transform.rotation);
             }
             else
             {
-                Instantiate(pbSpike, new Vector2(3.17f, gCam.transform.position.y + 7), transform.rotation);
+                Instantiate(pbSpike, new Vector2(3.17f, gCam.transform.position.y + 6), transform.rotation);
             }
             
             isZero = true;
